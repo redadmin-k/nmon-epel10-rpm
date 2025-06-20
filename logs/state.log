@@ -1,0 +1,22 @@
+2025-06-20 14:51:22,650 - Mock Version: 6.2
+2025-06-20 14:51:22,667 - Start(bootstrap): chroot init
+2025-06-20 14:51:22,749 - Start(bootstrap): cleaning package manager metadata
+2025-06-20 14:51:22,749 - Finish(bootstrap): cleaning package manager metadata
+2025-06-20 14:51:23,319 - Finish(bootstrap): chroot init
+2025-06-20 14:51:23,328 - Start: chroot init
+2025-06-20 14:51:23,360 - Start: unpacking root cache
+2025-06-20 14:51:24,596 - Finish: unpacking root cache
+2025-06-20 14:51:24,603 - Start: cleaning package manager metadata
+2025-06-20 14:51:24,606 - Finish: cleaning package manager metadata
+2025-06-20 14:51:25,207 - Start: dnf4 update
+2025-06-20 14:51:34,486 - Finish: dnf4 update
+2025-06-20 14:51:35,115 - Finish: chroot init
+2025-06-20 14:51:35,119 - Start: build phase for nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:35,122 - Start: build setup for nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:47,117 - Finish: build setup for nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:47,118 - Start: rpmbuild nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:47,123 - Start: Outputting list of installed packages
+2025-06-20 14:51:47,410 - Finish: Outputting list of installed packages
+2025-06-20 14:51:56,200 - Finish: rpmbuild nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:56,209 - Finish: build phase for nmon-16p-5.fc40.src.rpm
+2025-06-20 14:51:56,218 - Finish: run

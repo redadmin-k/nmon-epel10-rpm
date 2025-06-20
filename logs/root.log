@@ -1,0 +1,1059 @@
+INFO buildroot.py:667:  Mock Version: 6.2
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/results
+INFO buildroot.py:318:  calling preinit hooks
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64-bootstrap/root_cache/
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64-bootstrap/yum_cache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64-bootstrap/dnf_cache
+DEBUG buildroot.py:723:  create skeleton dirs
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/dbus
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/log
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/tmp/ccache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/dnf/vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/proc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/sys
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/run/lock
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/dev/pts
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/dev/shm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/dev/mapper
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/dev/mapper
+DEBUG buildroot.py:867:  kernel version == 6.12.0-55.9.1.el10_0.x86_64
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/log/yum.log
+DEBUG buildroot.py:332:  rootdir = /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root
+DEBUG buildroot.py:333:  resultdir = /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/results
+DEBUG package_manager.py:63:  searching for 'dnf4' package manager or alternatives
+INFO buildroot.py:181:  Package manager dnf4 detected and used (fallback)
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/mock
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/pem/directory-hash
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/source/blocklist
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./blocklist
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share
+DEBUG package_manager.py:388:  Copying /usr/share/distribution-gpg-keys to the bootstrap chroot
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['cp', '-a', '/usr/share/distribution-gpg-keys', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/usr/share'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc/dnf
+DEBUG package_manager.py:691:  configure DNF vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/yum
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-stream+epel-10-x86_64-bootstrap/yum_cache', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/dnf
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-stream+epel-10-x86_64-bootstrap/dnf_cache', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/etc
+DEBUG buildroot.py:38:  method _cleanup_homedir skipped in bootstrap
+DEBUG buildroot.py:38:  method _setup_build_dirs skipped in bootstrap
+DEBUG buildroot.py:38:  method _make_users skipped in bootstrap
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/.initialized
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/result
+INFO buildroot.py:318:  calling preinit hooks
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64/root_cache/
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/var/cache/mock/centos-stream+epel-10-x86_64/root_cache/cache.tar.gz', '-C', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./proc
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./proc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./sys
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./sys
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./dev
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./dev
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./tmp/ccache
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./tmp/ccache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/cache/yum
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/cache/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/log
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/./var/log
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64/yum_cache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/cache/mock/centos-stream+epel-10-x86_64/dnf_cache
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  Architecture:                         x86_64
+DEBUG util.py:461:  CPU op-mode(s):                       32-bit, 64-bit
+DEBUG util.py:461:  Address sizes:                        39 bits physical, 48 bits virtual
+DEBUG util.py:461:  Byte Order:                           Little Endian
+DEBUG util.py:461:  CPU(s):                               4
+DEBUG util.py:461:  On-line CPU(s) list:                  0-3
+DEBUG util.py:461:  Vendor ID:                            GenuineIntel
+DEBUG util.py:461:  BIOS Vendor ID:                       QEMU
+DEBUG util.py:461:  Model name:                           Intel(R) N100
+DEBUG util.py:461:  BIOS Model name:                      pc-q35-8.2  CPU @ 2.0GHz
+DEBUG util.py:461:  BIOS CPU family:                      1
+DEBUG util.py:461:  CPU family:                           6
+DEBUG util.py:461:  Model:                                190
+DEBUG util.py:461:  Thread(s) per core:                   1
+DEBUG util.py:461:  Core(s) per socket:                   1
+DEBUG util.py:461:  Socket(s):                            4
+DEBUG util.py:461:  Stepping:                             0
+DEBUG util.py:461:  BogoMIPS:                             1612.80
+DEBUG util.py:461:  Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+DEBUG util.py:461:  Virtualization:                       VT-x
+DEBUG util.py:461:  Hypervisor vendor:                    KVM
+DEBUG util.py:461:  Virtualization type:                  full
+DEBUG util.py:461:  L1d cache:                            128 KiB (4 instances)
+DEBUG util.py:461:  L1i cache:                            128 KiB (4 instances)
+DEBUG util.py:461:  L2 cache:                             16 MiB (4 instances)
+DEBUG util.py:461:  L3 cache:                             64 MiB (4 instances)
+DEBUG util.py:461:  NUMA node(s):                         1
+DEBUG util.py:461:  NUMA node0 CPU(s):                    0-3
+DEBUG util.py:461:  Vulnerability Gather data sampling:   Not affected
+DEBUG util.py:461:  Vulnerability Itlb multihit:          Not affected
+DEBUG util.py:461:  Vulnerability L1tf:                   Not affected
+DEBUG util.py:461:  Vulnerability Mds:                    Not affected
+DEBUG util.py:461:  Vulnerability Meltdown:               Not affected
+DEBUG util.py:461:  Vulnerability Mmio stale data:        Not affected
+DEBUG util.py:461:  Vulnerability Reg file data sampling: Vulnerable: No microcode
+DEBUG util.py:461:  Vulnerability Retbleed:               Not affected
+DEBUG util.py:461:  Vulnerability Spec rstack overflow:   Not affected
+DEBUG util.py:461:  Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+DEBUG util.py:461:  Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+DEBUG util.py:461:  Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+DEBUG util.py:461:  Vulnerability Srbds:                  Not affected
+DEBUG util.py:461:  Vulnerability Tsx async abort:        Not affected
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/free'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:                 total        used        free      shared  buff/cache   available
+DEBUG util.py:461:  Mem:         3740592      829712      484308       19800     2743012     2910880
+DEBUG util.py:461:  Swap:        4133884        1572     4132312
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/df', '-H', '-T', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  Filesystem     Type  Size  Used Avail Use% Mounted on
+DEBUG util.py:461:  /dev/vda4      xfs    49G   14G   35G  29% /
+DEBUG util.py:461:  /dev/vda4      xfs    49G   14G   35G  29% /
+DEBUG util.py:608:  Child return code was: 0
+DEBUG buildroot.py:723:  create skeleton dirs
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/lib/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/lib/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/lib/dbus
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/log
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/tmp/ccache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/dnf/vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/proc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/sys
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/run/lock
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/mapper
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/mapper
+DEBUG buildroot.py:867:  kernel version == 6.12.0-55.9.1.el10_0.x86_64
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/log/yum.log
+DEBUG buildroot.py:332:  rootdir = /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG buildroot.py:333:  resultdir = /var/lib/mock/centos-stream+epel-10-x86_64/result
+INFO buildroot.py:181:  Package manager dnf4 detected and used (direct choice)
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/mock
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/extracted/pem/directory-hash
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/pki/ca-trust/source/blocklist
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/centos-stream+epel-10-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/usr/share/pki/ca-trust-source/./blocklist
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/etc/dnf
+DEBUG package_manager.py:691:  configure DNF vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/yum
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-stream+epel-10-x86_64/yum_cache', '/var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/dnf
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/centos-stream+epel-10-x86_64/dnf_cache', '/var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args None
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'eb7e8d727fbc40329a4c8a8170fa4669', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/sh', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'rpm', '-q', 'rpm', 'rpm-sequoia', 'python3-dnf', 'python3-dnf-plugins-core', 'yum', 'yum-utils', 'dnf5', 'dnf5-plugins'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  rpm-4.19.1.1-14.el10.x86_64
+DEBUG util.py:461:  rpm-sequoia-1.6.0-6.el10.x86_64
+DEBUG util.py:461:  python3-dnf-4.20.0-14.el10.noarch
+DEBUG util.py:461:  python3-dnf-plugins-core-4.7.0-9.el10.noarch
+DEBUG util.py:461:  yum-4.20.0-14.el10.noarch
+DEBUG util.py:461:  package yum-utils is not installed
+DEBUG util.py:461:  package dnf5 is not installed
+DEBUG util.py:461:  package dnf5-plugins is not installed
+DEBUG util.py:608:  Child return code was: 3
+INFO package_manager.py:201:  Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.19.1.1-14.el10.x86_64
+  rpm-sequoia-1.6.0-6.el10.x86_64
+  python3-dnf-4.20.0-14.el10.noarch
+  python3-dnf-plugins-core-4.7.0-9.el10.noarch
+  yum-4.20.0-14.el10.noarch
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'e917b49c61c54160a85c03a616d62d2f', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  gpg-pubkey-8483c65d-5ccc5b19
+DEBUG util.py:461:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:461:  libgcc-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:461:  ansible-srpm-macros-1-16.1.el10_0.noarch
+DEBUG util.py:461:  rust-toolset-srpm-macros-1.87.0-1.el10.noarch
+DEBUG util.py:461:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:461:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:461:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:461:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:461:  kernel-srpm-macros-1.0-25.el10.noarch
+DEBUG util.py:461:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:461:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:461:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:461:  ncurses-base-6.4-14.20240127.el10.noarch
+DEBUG util.py:461:  libssh-config-0.11.1-1.el10.noarch
+DEBUG util.py:461:  coreutils-common-9.5-6.el10.x86_64
+DEBUG util.py:461:  centos-gpg-keys-10.0-8.el10.noarch
+DEBUG util.py:461:  centos-stream-repos-10.0-8.el10.noarch
+DEBUG util.py:461:  centos-stream-release-10.0-8.el10.noarch
+DEBUG util.py:461:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:461:  filesystem-3.18-16.el10.x86_64
+DEBUG util.py:461:  basesystem-11-22.el10.noarch
+DEBUG util.py:461:  glibc-gconv-extra-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-minimal-langpack-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-common-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-2.39-38.el10.x86_64
+DEBUG util.py:461:  ncurses-libs-6.4-14.20240127.el10.x86_64
+DEBUG util.py:461:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:461:  zlib-ng-compat-2.2.3-2.el10.x86_64
+DEBUG util.py:461:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:461:  readline-8.2-11.el10.x86_64
+DEBUG util.py:461:  libstdc++-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  libuuid-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  popt-1.19-8.el10.x86_64
+DEBUG util.py:461:  libblkid-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  gmp-6.2.1-10.el10.x86_64
+DEBUG util.py:461:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:461:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:461:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:461:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:461:  elfutils-libelf-0.193-1.el10.x86_64
+DEBUG util.py:461:  crypto-policies-20250602-1.gita6d4d0c.el10.noarch
+DEBUG util.py:461:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:461:  dwz-0.15-7.el10.x86_64
+DEBUG util.py:461:  mpfr-4.2.1-5.el10.x86_64
+DEBUG util.py:461:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:461:  file-libs-5.45-7.el10.x86_64
+DEBUG util.py:461:  file-5.45-7.el10.x86_64
+DEBUG util.py:461:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:461:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:461:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:461:  audit-libs-4.0.3-4.el10.x86_64
+DEBUG util.py:461:  pam-libs-1.6.1-7.el10.x86_64
+DEBUG util.py:461:  libcap-2.69-7.el10.x86_64
+DEBUG util.py:461:  systemd-libs-257-11.el10.x86_64
+DEBUG util.py:461:  libsepol-3.8-1.el10.x86_64
+DEBUG util.py:461:  libsmartcols-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  libtasn1-4.20.0-1.el10.x86_64
+DEBUG util.py:461:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:461:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:461:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:461:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:461:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:461:  libselinux-3.8-2.el10.x86_64
+DEBUG util.py:461:  sed-4.9-3.el10.x86_64
+DEBUG util.py:461:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:461:  grep-3.11-10.el10.x86_64
+DEBUG util.py:461:  libmount-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  util-linux-core-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  shadow-utils-4.15.0-6.el10.x86_64
+DEBUG util.py:461:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:461:  tar-1.35-7.el10.x86_64
+DEBUG util.py:461:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:461:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:461:  zip-3.0-44.el10.x86_64
+DEBUG util.py:461:  cyrus-sasl-lib-2.1.28-27.el10.x86_64
+DEBUG util.py:461:  libfdisk-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:461:  ed-1.20-5.el10.x86_64
+DEBUG util.py:461:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:461:  elfutils-default-yama-scope-0.193-1.el10.noarch
+DEBUG util.py:461:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:461:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:461:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:461:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:461:  libbrotli-1.1.0-6.el10.x86_64
+DEBUG util.py:461:  libcom_err-1.47.1-3.el10.x86_64
+DEBUG util.py:461:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:461:  p11-kit-0.25.5-7.el10.x86_64
+DEBUG util.py:461:  p11-kit-trust-0.25.5-7.el10.x86_64
+DEBUG util.py:461:  openssl-libs-3.5.0-8.el10.x86_64
+DEBUG util.py:461:  coreutils-9.5-6.el10.x86_64
+DEBUG util.py:461:  ca-certificates-2024.2.69_v8.0.303-102.3.el10.noarch
+DEBUG util.py:461:  authselect-libs-1.5.0-8.el10.x86_64
+DEBUG util.py:461:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:461:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:461:  libarchive-3.7.7-3.el10.x86_64
+DEBUG util.py:461:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:461:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:461:  pam-1.6.1-7.el10.x86_64
+DEBUG util.py:461:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:461:  openldap-2.6.8-3.el10.x86_64
+DEBUG util.py:461:  rpm-sequoia-1.6.0-6.el10.x86_64
+DEBUG util.py:461:  libgomp-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  libnghttp2-1.64.0-2.el10.x86_64
+DEBUG util.py:461:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:461:  libssh-0.11.1-1.el10.x86_64
+DEBUG util.py:461:  libcurl-8.12.1-2.el10.x86_64
+DEBUG util.py:461:  elfutils-libs-0.193-1.el10.x86_64
+DEBUG util.py:461:  elfutils-debuginfod-client-0.193-1.el10.x86_64
+DEBUG util.py:461:  binutils-gold-2.41-56.el10.x86_64
+DEBUG util.py:461:  binutils-2.41-56.el10.x86_64
+DEBUG util.py:461:  elfutils-0.193-1.el10.x86_64
+DEBUG util.py:461:  gdb-minimal-14.2-4.1.el10.x86_64
+DEBUG util.py:461:  debugedit-5.1-7.el10.x86_64
+DEBUG util.py:461:  curl-8.12.1-2.el10.x86_64
+DEBUG util.py:461:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:461:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:461:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:461:  go-srpm-macros-3.6.0-4.el10.noarch
+DEBUG util.py:461:  python-srpm-macros-3.12-10.el10.noarch
+DEBUG util.py:461:  pyproject-srpm-macros-1.16.2-1.el10.noarch
+DEBUG util.py:461:  util-linux-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  authselect-1.5.0-8.el10.x86_64
+DEBUG util.py:461:  which-2.21-43.el10.x86_64
+DEBUG util.py:461:  info-7.1-6.el10.x86_64
+DEBUG util.py:461:  epel-rpm-macros-10-4.el10_1.noarch
+DEBUG util.py:461:  rpm-libs-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  rpm-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  rpm-build-libs-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  qt6-srpm-macros-6.9.1-1.el10.noarch
+DEBUG util.py:461:  redhat-rpm-config-292-1.el10.noarch
+DEBUG util.py:461:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:461:  rpm-build-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  krb5-libs-1.21.3-8.el10.x86_64
+DEBUG util.py:461:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:461:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:461:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:461:  libxml2-2.12.5-5.el10_0.x86_64
+DEBUG util.py:461:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:461:  sqlite-libs-3.46.1-4.el10_0.x86_64
+DEBUG util.py:461:  libsemanage-3.8.1-1.el10_0.x86_64
+DEBUG util.py:461:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/proc
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/proc
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/sys
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/sys
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir
+DEBUG package_manager.py:295:  ['/usr/bin/dnf-3', '--installroot', '/var/lib/mock/centos-stream+epel-10-x86_64/root/', '-y', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update']
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '682b047cf55242a393a5e5734e48b9c9', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf-3', '--installroot', '/var/lib/mock/centos-stream+epel-10-x86_64/root/', '-y', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:459:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:461:  CentOS Stream 10 - BaseOS                                                                                                    4.1 kB/s | 5.2 kB     00:01    
+DEBUG util.py:461:  CentOS Stream 10 - AppStream                                                                                                 4.7 kB/s | 5.2 kB     00:01    
+DEBUG util.py:461:  CentOS Stream 10 - CRB                                                                                                       3.7 kB/s | 5.1 kB     00:01    
+DEBUG util.py:461:  CentOS Stream 10 - Extras packages                                                                                           6.4 kB/s | 5.9 kB     00:00    
+DEBUG util.py:461:  Extra Packages for Enterprise Linux 10 - x86_64                                                                               12 kB/s |  13 kB     00:01    
+DEBUG util.py:461:  Dependencies resolved.
+DEBUG util.py:461:  Nothing to do.
+DEBUG util.py:461:  Complete!
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '3d83bcdc173d4eb48e4a7d6d30eda7b7', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  gpg-pubkey-8483c65d-5ccc5b19
+DEBUG util.py:461:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:461:  libgcc-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:461:  ansible-srpm-macros-1-16.1.el10_0.noarch
+DEBUG util.py:461:  rust-toolset-srpm-macros-1.87.0-1.el10.noarch
+DEBUG util.py:461:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:461:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:461:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:461:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:461:  kernel-srpm-macros-1.0-25.el10.noarch
+DEBUG util.py:461:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:461:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:461:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:461:  ncurses-base-6.4-14.20240127.el10.noarch
+DEBUG util.py:461:  libssh-config-0.11.1-1.el10.noarch
+DEBUG util.py:461:  coreutils-common-9.5-6.el10.x86_64
+DEBUG util.py:461:  centos-gpg-keys-10.0-8.el10.noarch
+DEBUG util.py:461:  centos-stream-repos-10.0-8.el10.noarch
+DEBUG util.py:461:  centos-stream-release-10.0-8.el10.noarch
+DEBUG util.py:461:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:461:  filesystem-3.18-16.el10.x86_64
+DEBUG util.py:461:  basesystem-11-22.el10.noarch
+DEBUG util.py:461:  glibc-gconv-extra-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-minimal-langpack-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-common-2.39-38.el10.x86_64
+DEBUG util.py:461:  glibc-2.39-38.el10.x86_64
+DEBUG util.py:461:  ncurses-libs-6.4-14.20240127.el10.x86_64
+DEBUG util.py:461:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:461:  zlib-ng-compat-2.2.3-2.el10.x86_64
+DEBUG util.py:461:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:461:  readline-8.2-11.el10.x86_64
+DEBUG util.py:461:  libstdc++-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  libuuid-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  popt-1.19-8.el10.x86_64
+DEBUG util.py:461:  libblkid-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  gmp-6.2.1-10.el10.x86_64
+DEBUG util.py:461:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:461:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:461:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:461:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:461:  elfutils-libelf-0.193-1.el10.x86_64
+DEBUG util.py:461:  crypto-policies-20250602-1.gita6d4d0c.el10.noarch
+DEBUG util.py:461:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:461:  dwz-0.15-7.el10.x86_64
+DEBUG util.py:461:  mpfr-4.2.1-5.el10.x86_64
+DEBUG util.py:461:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:461:  file-libs-5.45-7.el10.x86_64
+DEBUG util.py:461:  file-5.45-7.el10.x86_64
+DEBUG util.py:461:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:461:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:461:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:461:  audit-libs-4.0.3-4.el10.x86_64
+DEBUG util.py:461:  pam-libs-1.6.1-7.el10.x86_64
+DEBUG util.py:461:  libcap-2.69-7.el10.x86_64
+DEBUG util.py:461:  systemd-libs-257-11.el10.x86_64
+DEBUG util.py:461:  libsepol-3.8-1.el10.x86_64
+DEBUG util.py:461:  libsmartcols-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  libtasn1-4.20.0-1.el10.x86_64
+DEBUG util.py:461:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:461:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:461:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:461:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:461:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:461:  libselinux-3.8-2.el10.x86_64
+DEBUG util.py:461:  sed-4.9-3.el10.x86_64
+DEBUG util.py:461:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:461:  grep-3.11-10.el10.x86_64
+DEBUG util.py:461:  libmount-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  util-linux-core-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  shadow-utils-4.15.0-6.el10.x86_64
+DEBUG util.py:461:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:461:  tar-1.35-7.el10.x86_64
+DEBUG util.py:461:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:461:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:461:  zip-3.0-44.el10.x86_64
+DEBUG util.py:461:  cyrus-sasl-lib-2.1.28-27.el10.x86_64
+DEBUG util.py:461:  libfdisk-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:461:  ed-1.20-5.el10.x86_64
+DEBUG util.py:461:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:461:  elfutils-default-yama-scope-0.193-1.el10.noarch
+DEBUG util.py:461:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:461:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:461:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:461:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:461:  libbrotli-1.1.0-6.el10.x86_64
+DEBUG util.py:461:  libcom_err-1.47.1-3.el10.x86_64
+DEBUG util.py:461:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:461:  p11-kit-0.25.5-7.el10.x86_64
+DEBUG util.py:461:  p11-kit-trust-0.25.5-7.el10.x86_64
+DEBUG util.py:461:  openssl-libs-3.5.0-8.el10.x86_64
+DEBUG util.py:461:  coreutils-9.5-6.el10.x86_64
+DEBUG util.py:461:  ca-certificates-2024.2.69_v8.0.303-102.3.el10.noarch
+DEBUG util.py:461:  authselect-libs-1.5.0-8.el10.x86_64
+DEBUG util.py:461:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:461:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:461:  libarchive-3.7.7-3.el10.x86_64
+DEBUG util.py:461:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:461:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:461:  pam-1.6.1-7.el10.x86_64
+DEBUG util.py:461:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:461:  openldap-2.6.8-3.el10.x86_64
+DEBUG util.py:461:  rpm-sequoia-1.6.0-6.el10.x86_64
+DEBUG util.py:461:  libgomp-14.2.1-8.el10.x86_64
+DEBUG util.py:461:  libnghttp2-1.64.0-2.el10.x86_64
+DEBUG util.py:461:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:461:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:461:  libssh-0.11.1-1.el10.x86_64
+DEBUG util.py:461:  libcurl-8.12.1-2.el10.x86_64
+DEBUG util.py:461:  elfutils-libs-0.193-1.el10.x86_64
+DEBUG util.py:461:  elfutils-debuginfod-client-0.193-1.el10.x86_64
+DEBUG util.py:461:  binutils-gold-2.41-56.el10.x86_64
+DEBUG util.py:461:  binutils-2.41-56.el10.x86_64
+DEBUG util.py:461:  elfutils-0.193-1.el10.x86_64
+DEBUG util.py:461:  gdb-minimal-14.2-4.1.el10.x86_64
+DEBUG util.py:461:  debugedit-5.1-7.el10.x86_64
+DEBUG util.py:461:  curl-8.12.1-2.el10.x86_64
+DEBUG util.py:461:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:461:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:461:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:461:  go-srpm-macros-3.6.0-4.el10.noarch
+DEBUG util.py:461:  python-srpm-macros-3.12-10.el10.noarch
+DEBUG util.py:461:  pyproject-srpm-macros-1.16.2-1.el10.noarch
+DEBUG util.py:461:  util-linux-2.40.2-10.el10.x86_64
+DEBUG util.py:461:  authselect-1.5.0-8.el10.x86_64
+DEBUG util.py:461:  which-2.21-43.el10.x86_64
+DEBUG util.py:461:  info-7.1-6.el10.x86_64
+DEBUG util.py:461:  epel-rpm-macros-10-4.el10_1.noarch
+DEBUG util.py:461:  rpm-libs-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  rpm-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  rpm-build-libs-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  qt6-srpm-macros-6.9.1-1.el10.noarch
+DEBUG util.py:461:  redhat-rpm-config-292-1.el10.noarch
+DEBUG util.py:461:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:461:  rpm-build-4.19.1.1-17.el10.x86_64
+DEBUG util.py:461:  krb5-libs-1.21.3-8.el10.x86_64
+DEBUG util.py:461:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:461:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:461:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:461:  libxml2-2.12.5-5.el10_0.x86_64
+DEBUG util.py:461:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:461:  sqlite-libs-3.46.1-4.el10_0.x86_64
+DEBUG util.py:461:  libsemanage-3.8.1-1.el10_0.x86_64
+DEBUG util.py:461:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/originals
+DEBUG file_util.py:21:  created dir: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir/build/originals
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/builddir
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['userdel', '-f', 'mockbuild', '--prefix', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['groupdel', 'mock', '--prefix', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['groupadd', 'mock', '-g', '135', '--prefix', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['useradd', 'mockbuild', '-o', '-u', '0', '-g', '135', '-N', '-d', '/builddir', '--prefix', '/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:459:  useradd warning: mockbuild's uid 0 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+DEBUG util.py:459:  useradd: warning: the home directory /builddir already exists.
+DEBUG util.py:459:  useradd: Not copying any file from skel directory into it.
+DEBUG util.py:459:  Creating mailbox file: File exists
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:30:  touching file: /var/lib/mock/centos-stream+epel-10-x86_64/root/.initialized
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '71179357a8e64550bd8dad6d2ed097c8', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/nmon-16p-5.fc40.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:459:  warning: /builddir/build/originals/nmon-16p-5.fc40.src.rpm: Header V4 RSA/SHA256 Signature, key ID a15b79cc: NOKEY
+DEBUG util.py:461:  Updating / installing...
+DEBUG util.py:461:  nmon-16p-5.fc40                       ########################################
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '232c78640bb8409f828dd8a1517a2575', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qpl', '/builddir/build/originals/nmon-16p-5.fc40.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:459:  warning: /builddir/build/originals/nmon-16p-5.fc40.src.rpm: Header V4 RSA/SHA256 Signature, key ID a15b79cc: NOKEY
+DEBUG util.py:461:  Documentation.txt
+DEBUG util.py:461:  lmon16p.c
+DEBUG util.py:461:  nmon.1
+DEBUG util.py:461:  nmon.spec
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '9ab6b444f4c6402d89bf0d1ec9a12154', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tcuyl6oz:/etc/resolv.conf', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/sh', '-c', 'case $(rpmbuild --help) in *--noclean*) exit 0; esac; exit 1'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/proc
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/proc
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/sys
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/sys
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir
+DEBUG package_manager.py:295:  ['/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/centos-stream+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/centos-stream+epel-10-x86_64/root//builddir/build/SRPMS/nmon-16p-5.el10.src.rpm']
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '0d66f8f9ad9a4dc1bb4f70f574ffc50a', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/centos-stream+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/centos-stream+epel-10-x86_64/root//builddir/build/SRPMS/nmon-16p-5.el10.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/centos-stream+epel-10-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:459:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:461:  CentOS Stream 10 - BaseOS                                                                                                    4.8 kB/s | 5.2 kB     00:01    
+DEBUG util.py:461:  CentOS Stream 10 - AppStream                                                                                                 7.8 kB/s | 5.2 kB     00:00    
+DEBUG util.py:461:  CentOS Stream 10 - CRB                                                                                                       4.1 kB/s | 5.1 kB     00:01    
+DEBUG util.py:461:  CentOS Stream 10 - Extras packages                                                                                           4.3 kB/s | 5.9 kB     00:01    
+DEBUG util.py:461:  Extra Packages for Enterprise Linux 10 - x86_64                                                                              9.9 kB/s |  13 kB     00:01    
+DEBUG util.py:461:  Dependencies resolved.
+DEBUG util.py:461:  =============================================================================================================================================================
+DEBUG util.py:461:   Package                                   Architecture                  Version                                      Repository                        Size
+DEBUG util.py:461:  =============================================================================================================================================================
+DEBUG util.py:461:  Installing:
+DEBUG util.py:461:   gcc                                       x86_64                        14.2.1-8.el10                                appstream                         38 M
+DEBUG util.py:461:   ncurses-devel                             x86_64                        6.4-14.20240127.el10                         appstream                        753 k
+DEBUG util.py:461:  Installing dependencies:
+DEBUG util.py:461:   annobin-docs                              noarch                        12.93-2.el10                                 appstream                         91 k
+DEBUG util.py:461:   annobin-plugin-gcc                        x86_64                        12.93-2.el10                                 appstream                        985 k
+DEBUG util.py:461:   cpp                                       x86_64                        14.2.1-8.el10                                appstream                         13 M
+DEBUG util.py:461:   gcc-plugin-annobin                        x86_64                        14.2.1-8.el10                                appstream                         62 k
+DEBUG util.py:461:   glibc-devel                               x86_64                        2.39-38.el10                                 appstream                        625 k
+DEBUG util.py:461:   kernel-headers                            x86_64                        6.12.0-92.el10                               appstream                        2.4 M
+DEBUG util.py:461:   libmpc                                    x86_64                        1.3.1-7.el10                                 appstream                         71 k
+DEBUG util.py:461:   libxcrypt-devel                           x86_64                        4.4.36-10.el10                               appstream                         30 k
+DEBUG util.py:461:   make                                      x86_64                        1:4.4.1-9.el10                               baseos                           587 k
+DEBUG util.py:461:   ncurses-c++-libs                          x86_64                        6.4-14.20240127.el10                         appstream                         39 k
+DEBUG util.py:461:  Transaction Summary
+DEBUG util.py:461:  =============================================================================================================================================================
+DEBUG util.py:461:  Install  12 Packages
+DEBUG util.py:461:  Total size: 56 M
+DEBUG util.py:461:  Installed size: 161 M
+DEBUG util.py:461:  Downloading Packages:
+DEBUG util.py:461:  [SKIPPED] make-4.4.1-9.el10.x86_64.rpm: Already downloaded                                                                                                  
+DEBUG util.py:461:  [SKIPPED] annobin-docs-12.93-2.el10.noarch.rpm: Already downloaded                                                                                          
+DEBUG util.py:461:  [SKIPPED] annobin-plugin-gcc-12.93-2.el10.x86_64.rpm: Already downloaded                                                                                    
+DEBUG util.py:461:  [SKIPPED] cpp-14.2.1-8.el10.x86_64.rpm: Already downloaded                                                                                                  
+DEBUG util.py:461:  [SKIPPED] gcc-14.2.1-8.el10.x86_64.rpm: Already downloaded                                                                                                  
+DEBUG util.py:461:  [SKIPPED] gcc-plugin-annobin-14.2.1-8.el10.x86_64.rpm: Already downloaded                                                                                   
+DEBUG util.py:461:  [SKIPPED] glibc-devel-2.39-38.el10.x86_64.rpm: Already downloaded                                                                                           
+DEBUG util.py:461:  [SKIPPED] kernel-headers-6.12.0-92.el10.x86_64.rpm: Already downloaded                                                                                      
+DEBUG util.py:461:  [SKIPPED] libmpc-1.3.1-7.el10.x86_64.rpm: Already downloaded                                                                                                
+DEBUG util.py:461:  [SKIPPED] libxcrypt-devel-4.4.36-10.el10.x86_64.rpm: Already downloaded                                                                                     
+DEBUG util.py:461:  [SKIPPED] ncurses-c++-libs-6.4-14.20240127.el10.x86_64.rpm: Already downloaded                                                                              
+DEBUG util.py:461:  [SKIPPED] ncurses-devel-6.4-14.20240127.el10.x86_64.rpm: Already downloaded                                                                                 
+DEBUG util.py:461:  Running transaction check
+DEBUG util.py:461:  Transaction check succeeded.
+DEBUG util.py:461:  Running transaction test
+DEBUG util.py:461:  Transaction test succeeded.
+DEBUG util.py:461:  Running transaction
+DEBUG util.py:461:    Preparing        :                                                                                                                                     1/1 
+DEBUG util.py:461:    Installing       : libmpc-1.3.1-7.el10.x86_64                                                                                                         1/12 
+DEBUG util.py:461:    Installing       : cpp-14.2.1-8.el10.x86_64                                                                                                           2/12 
+DEBUG util.py:461:    Installing       : ncurses-c++-libs-6.4-14.20240127.el10.x86_64                                                                                       3/12 
+DEBUG util.py:461:    Installing       : kernel-headers-6.12.0-92.el10.x86_64                                                                                               4/12 
+DEBUG util.py:461:    Installing       : libxcrypt-devel-4.4.36-10.el10.x86_64                                                                                              5/12 
+DEBUG util.py:461:    Installing       : glibc-devel-2.39-38.el10.x86_64                                                                                                    6/12 
+DEBUG util.py:461:    Installing       : annobin-docs-12.93-2.el10.noarch                                                                                                   7/12 
+DEBUG util.py:461:    Installing       : make-1:4.4.1-9.el10.x86_64                                                                                                         8/12 
+DEBUG util.py:461:    Installing       : gcc-14.2.1-8.el10.x86_64                                                                                                           9/12 
+DEBUG util.py:461:    Running scriptlet: gcc-14.2.1-8.el10.x86_64                                                                                                           9/12 
+DEBUG util.py:461:    Installing       : annobin-plugin-gcc-12.93-2.el10.x86_64                                                                                            10/12 
+DEBUG util.py:461:    Running scriptlet: annobin-plugin-gcc-12.93-2.el10.x86_64                                                                                            10/12 
+DEBUG util.py:461:    Installing       : gcc-plugin-annobin-14.2.1-8.el10.x86_64                                                                                           11/12 
+DEBUG util.py:461:    Running scriptlet: gcc-plugin-annobin-14.2.1-8.el10.x86_64                                                                                           11/12 
+DEBUG util.py:461:    Installing       : ncurses-devel-6.4-14.20240127.el10.x86_64                                                                                         12/12 
+DEBUG util.py:461:    Running scriptlet: ncurses-devel-6.4-14.20240127.el10.x86_64                                                                                         12/12 
+DEBUG util.py:461:  Installed:
+DEBUG util.py:461:    annobin-docs-12.93-2.el10.noarch               annobin-plugin-gcc-12.93-2.el10.x86_64                 cpp-14.2.1-8.el10.x86_64                           
+DEBUG util.py:461:    gcc-14.2.1-8.el10.x86_64                       gcc-plugin-annobin-14.2.1-8.el10.x86_64                glibc-devel-2.39-38.el10.x86_64                    
+DEBUG util.py:461:    kernel-headers-6.12.0-92.el10.x86_64           libmpc-1.3.1-7.el10.x86_64                             libxcrypt-devel-4.4.36-10.el10.x86_64              
+DEBUG util.py:461:    make-1:4.4.1-9.el10.x86_64                     ncurses-c++-libs-6.4-14.20240127.el10.x86_64           ncurses-devel-6.4-14.20240127.el10.x86_64          
+DEBUG util.py:461:  Complete!
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/centos-stream+epel-10-x86_64/root', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:551:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf']
+DEBUG util.py:556:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '9070810117934f2199d850a23aa061ba', '-D', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1cfrkfki:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/sh', '-c', "rpm -qa --root '/var/lib/mock/centos-stream+epel-10-x86_64/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\\n'"] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  gpg-pubkey-8483c65d-5ccc5b19 1556896537 0 (none) installed
+DEBUG util.py:461:  gpg-pubkey-e37ed158-65785fa9 1702387625 0 (none) installed
+DEBUG util.py:461:  libgcc-14.2.1-8.el10.x86_64 1748428424 277124 ed5e79923a74fcf2e3e5ee4cdce61ff7 installed
+DEBUG util.py:461:  ghc-srpm-macros-1.9.2-1.el10_0.noarch 1745569162 779 625f9b093fee9bb0f6c830c41d176111 installed
+DEBUG util.py:461:  ansible-srpm-macros-1-16.1.el10_0.noarch 1734457451 36518 eaefde85d4580e8a0dd82b26b3c5ea11 installed
+DEBUG util.py:461:  rust-toolset-srpm-macros-1.87.0-1.el10.noarch 1748566878 2058 ac88da52f2621c4d198fceaee332fad5 installed
+DEBUG util.py:461:  perl-srpm-macros-1-57.el10.noarch 1730227896 861 6278c61673e6f70568ec05a59aa0b9fc installed
+DEBUG util.py:461:  package-notes-srpm-macros-0.5-13.el10.noarch 1730226011 1601 bb87b72df28a1d373265d9aabc1927ac installed
+DEBUG util.py:461:  openblas-srpm-macros-2-19.el10.noarch 1730225697 112 db378a3d2cc4c55e091943978c6c07b4 installed
+DEBUG util.py:461:  ocaml-srpm-macros-10-4.el10.noarch 1730225579 1959 e93fce8c61a956aa0b01b0e3edd6419f installed
+DEBUG util.py:461:  kernel-srpm-macros-1.0-25.el10.noarch 1730219807 1949 d8348f4676bb25585ae7919de6bc05ce installed
+DEBUG util.py:461:  publicsuffix-list-dafsa-20240107-5.el10.noarch 1730228718 69171 b3f4df6e954d12b428e67ee877c7e810 installed
+DEBUG util.py:461:  pkgconf-m4-2.1.0-3.el10.noarch 1730228266 14252 85405cf8cc1a36c8de9fe92347e0acc3 installed
+DEBUG util.py:461:  pcre2-syntax-10.44-1.el10.3.noarch 1730226499 257634 38d94bb36ae8d3ef12a3a9af950e791f installed
+DEBUG util.py:461:  ncurses-base-6.4-14.20240127.el10.noarch 1730224728 334036 fa6145f4b4d3d18d911bcb32d9be44ad installed
+DEBUG util.py:461:  libssh-config-0.11.1-1.el10.noarch 1730102143 277 e6293f316965dfdca9417663ffb357a7 installed
+DEBUG util.py:461:  coreutils-common-9.5-6.el10.x86_64 1732618075 11696153 9224526c32e26a915fabca8e440fab9a installed
+DEBUG util.py:461:  centos-gpg-keys-10.0-8.el10.noarch 1740066864 3865 1379cbf7494814ae62c55315c354e8d8 installed
+DEBUG util.py:461:  centos-stream-repos-10.0-8.el10.noarch 1740066864 7002 220426282a002f0eaa2fe70b0c93c1ef installed
+DEBUG util.py:461:  centos-stream-release-10.0-8.el10.noarch 1740066864 37914 0e486114ee58c48ffc7a3d809c1a73cb installed
+DEBUG util.py:461:  setup-2.14.5-7.el10.noarch 1744129580 737783 1ebd10b27986b317f541947707a04aaa installed
+DEBUG util.py:461:  filesystem-3.18-16.el10.x86_64 1730216154 106 077a6ba7b2422325ec3c24d801f72a0d installed
+DEBUG util.py:461:  basesystem-11-22.el10.noarch 1730215184 0 46b49e11743b85a984f4a5a17fc35d88 installed
+DEBUG util.py:461:  glibc-gconv-extra-2.39-38.el10.x86_64 1746515242 8162982 43398a55c2743fd36fdd864d06a0611f installed
+DEBUG util.py:461:  glibc-minimal-langpack-2.39-38.el10.x86_64 1746515242 0 3dd2895bbf930c7347279aac803a7515 installed
+DEBUG util.py:461:  glibc-common-2.39-38.el10.x86_64 1746515242 1072850 5dc7c0f33fcd38e6ee0df8c4771b9dfa installed
+DEBUG util.py:461:  glibc-2.39-38.el10.x86_64 1746515242 6509026 4abae9b377e0bf7dace7d533894695fc installed
+DEBUG util.py:461:  ncurses-libs-6.4-14.20240127.el10.x86_64 1730224743 990279 1bcc5f175337f09bb575f6c7ca174057 installed
+DEBUG util.py:461:  bash-5.2.26-6.el10.x86_64 1730213617 8542552 2cd3d5bca2648022603f782773791b1c installed
+DEBUG util.py:461:  zlib-ng-compat-2.2.3-2.el10.x86_64 1745311060 140888 9c76600f3cc710f4a682f280e255cdc7 installed
+DEBUG util.py:461:  bzip2-libs-1.0.8-25.el10.x86_64 1737038253 81060 d26773fabbebe684132db674e56b6cd2 installed
+DEBUG util.py:461:  readline-8.2-11.el10.x86_64 1730230508 500877 45ca10b09be562eeea8f8e2b169df55f installed
+DEBUG util.py:461:  libstdc++-14.2.1-8.el10.x86_64 1748428424 2973886 187dd5a5e97d8a488820f7d55f7c2885 installed
+DEBUG util.py:461:  libuuid-2.40.2-10.el10.x86_64 1739464864 38205 8e523887699321cc761b3dbee937cf9b installed
+DEBUG util.py:461:  popt-1.19-8.el10.x86_64 1730228515 140130 053a20a60e1afd5e3badd2f5d4a638f4 installed
+DEBUG util.py:461:  libblkid-2.40.2-10.el10.x86_64 1739464864 268706 7cbd75e70d639c90fbc07020b25a9148 installed
+DEBUG util.py:461:  gmp-1:6.2.1-10.el10.x86_64 1730216894 825840 14d99e5658aff510737e73c6e5a813c3 installed
+DEBUG util.py:461:  libattr-2.5.2-5.el10.x86_64 1730215193 29173 2833a042a276b30da6c1a0ba42587877 installed
+DEBUG util.py:461:  libacl-2.3.2-4.el10.x86_64 1730215005 40954 631458af65cf3e129e9416aafab73ad3 installed
+DEBUG util.py:461:  libxcrypt-4.4.36-10.el10.x86_64 1730222731 273229 25dd448aa9ad608a0fbbee91b0625269 installed
+DEBUG util.py:461:  libzstd-1.5.5-9.el10.x86_64 1730235146 749302 8dc60817eda1668634e33393e9caee5b installed
+DEBUG util.py:461:  elfutils-libelf-0.193-1.el10.x86_64 1746041422 1220560 ec0a44e631932b826cf43396276bf973 installed
+DEBUG util.py:461:  crypto-policies-20250602-1.gita6d4d0c.el10.noarch 1749112264 115011 46d8713f9378455fc74cd063cc2d9268 installed
+DEBUG util.py:461:  libeconf-0.6.2-4.el10.x86_64 1730220424 59376 3c1826ec5ca18028ea82945e488379e5 installed
+DEBUG util.py:461:  dwz-0.15-7.el10.x86_64 1719244701 301972 cdadd22846a3e865fa29ecf9f03858aa installed
+DEBUG util.py:461:  mpfr-4.2.1-5.el10.x86_64 1730224547 847869 1b965245c27956c0e33e27d2ca0b0d4a installed
+DEBUG util.py:461:  gawk-5.3.0-6.el10.x86_64 1730216535 1799421 85779b68a9aff20397bd084b03a23424 installed
+DEBUG util.py:461:  file-libs-5.45-7.el10.x86_64 1730216106 10410238 65d65cac82e92d71d09e7937d00afda7 installed
+DEBUG util.py:461:  file-5.45-7.el10.x86_64 1730216106 105999 1a275605b642c18f1668001814edc771 installed
+DEBUG util.py:461:  alternatives-1.30-2.el10.x86_64 1730215254 67921 dacc56c639d072091b65fbccb3a8a2d0 installed
+DEBUG util.py:461:  jansson-2.14-3.el10.x86_64 1730219623 91245 f356c03e41105a611f67f1c3616f7054 installed
+DEBUG util.py:461:  libcap-ng-0.8.4-6.el10.x86_64 1730220054 74859 fa1e3296fb900214494caafbdd560ef7 installed
+DEBUG util.py:461:  audit-libs-4.0.3-4.el10.x86_64 1744382132 371825 531f4d2bfee9b25bfd0c5cc3bb656d0b installed
+DEBUG util.py:461:  pam-libs-1.6.1-7.el10.x86_64 1732183507 137895 5f7ec504d24b96d3b9a557488661d395 installed
+DEBUG util.py:461:  libcap-2.69-7.el10.x86_64 1730220121 229023 09c235e1a41cb500ab105f07a777e83d installed
+DEBUG util.py:461:  systemd-libs-257-11.el10.x86_64 1744784195 2403258 92592e3283683c13dcdc81ee19ecad73 installed
+DEBUG util.py:461:  libsepol-3.8-1.el10.x86_64 1738262927 849595 d7440dd6f3874370b8653a090b9de55e installed
+DEBUG util.py:461:  libsmartcols-2.40.2-10.el10.x86_64 1739464864 184586 7e48b32205d9d910d5f6387755248ca9 installed
+DEBUG util.py:461:  libtasn1-4.20.0-1.el10.x86_64 1739768187 184603 b4eff3a9f4b9efc278d5220ba1bde8cd installed
+DEBUG util.py:461:  libunistring-1.1-10.el10.x86_64 1730222558 1812853 8c599b5aa65a4c4789cd4e41924d01e8 installed
+DEBUG util.py:461:  libidn2-2.3.7-3.el10.x86_64 1730221096 336954 bad1bcf3af7ac272c292fb703d063727 installed
+DEBUG util.py:461:  lua-libs-5.4.6-7.el10.x86_64 1730223336 283675 1d3b244c28e3fabf1efc86d5e3735110 installed
+DEBUG util.py:461:  lz4-libs-1.9.4-8.el10.x86_64 1730223387 140659 787b6ed11b45f7fb7d4fa89dc99db3b2 installed
+DEBUG util.py:461:  pcre2-10.44-1.el10.3.x86_64 1730226502 681418 1d1777bee1d205beaf93890546e8b674 installed
+DEBUG util.py:461:  libselinux-3.8-2.el10.x86_64 1748608640 201757 aa89b583ec22f6d11fc73b357251f071 installed
+DEBUG util.py:461:  sed-4.9-3.el10.x86_64 1730231721 878041 6949f0c4519a6db4dbb7a5f18203526c installed
+DEBUG util.py:461:  findutils-1:4.10.0-5.el10.x86_64 1730216105 1942959 2942c06a64d76c8c621b9c0e249e8f99 installed
+DEBUG util.py:461:  grep-3.11-10.el10.x86_64 1730217810 1038114 c4048f163c58a88d4fdbc16b88d43ddf installed
+DEBUG util.py:461:  libmount-2.40.2-10.el10.x86_64 1739464864 360106 5683209c8b0cabefbbe7cec6a795f6a2 installed
+DEBUG util.py:461:  util-linux-core-2.40.2-10.el10.x86_64 1739464864 1520798 b22434070fa1079348f2798cef360153 installed
+DEBUG util.py:461:  shadow-utils-2:4.15.0-6.el10.x86_64 1748266797 4282165 6a1c2a80f60e5d0995d95496445be53d installed
+DEBUG util.py:461:  libutempter-1.2.1-15.el10.x86_64 1730222480 59097 3d7e2d73681be7ee74b906baf3003c64 installed
+DEBUG util.py:461:  tar-2:1.35-7.el10.x86_64 1738777241 3097154 f8d3b5a4f39d52f208c74d90ab384c88 installed
+DEBUG util.py:461:  zstd-1.5.5-9.el10.x86_64 1730235146 1632357 84663edbbd66d6925ff9af6ed92e0b42 installed
+DEBUG util.py:461:  libpsl-0.21.5-6.el10.x86_64 1730221584 82456 e51ba2fb198c78d0192012c64b37224b installed
+DEBUG util.py:461:  zip-3.0-44.el10.x86_64 1738077404 730231 d6e692c89b3c5bd5b3a72818418884a9 installed
+DEBUG util.py:461:  cyrus-sasl-lib-2.1.28-27.el10.x86_64 1733406346 728430 234b2a6d9bb457044f53d7cb729ec330 installed
+DEBUG util.py:461:  libfdisk-2.40.2-10.el10.x86_64 1739464864 371482 d359a1e5e3da6bc33dac2be6a18991ac installed
+DEBUG util.py:461:  bzip2-1.0.8-25.el10.x86_64 1737038253 95093 499d5be2f4267c6f95c8a8abf0a8c59f installed
+DEBUG util.py:461:  ed-1.20-5.el10.x86_64 1730215852 149892 e1e288db4337486a7c77f0e6bd3bbe8c installed
+DEBUG util.py:461:  patch-2.7.6-26.el10.x86_64 1730226385 273106 629d8b27ec95017e5710c3f64376a32b installed
+DEBUG util.py:461:  elfutils-default-yama-scope-0.193-1.el10.noarch 1746041434 1810 a7a4ca739663c17ba96b52f149914547 installed
+DEBUG util.py:461:  cpio-2.15-3.el10.x86_64 1730215674 1146592 61aa626f62b20f0c8c7cf66eedcbb856 installed
+DEBUG util.py:461:  diffutils-3.10-8.el10.x86_64 1730215620 1658034 c2e3be68b585b63d79f192af4b8bbbad installed
+DEBUG util.py:461:  json-c-0.18-3.el10.x86_64 1730888062 84642 790ed9f22b49da601d165a7f42803ef5 installed
+DEBUG util.py:461:  keyutils-libs-1.6.3-5.el10.x86_64 1730219803 55667 f3fa3cffd844c72bbd66724696a99bc4 installed
+DEBUG util.py:461:  libbrotli-1.1.0-6.el10.x86_64 1730215202 865794 afbddda59d52fa99a76d2576ffe3d9d9 installed
+DEBUG util.py:461:  libcom_err-1.47.1-3.el10.x86_64 1730215808 68801 15f4f8e7c0f7421c49aa8f046d971eae installed
+DEBUG util.py:461:  libffi-3.4.4-10.el10.x86_64 1747269976 87536 09add1816293186b6cb76eb3b4e07686 installed
+DEBUG util.py:461:  p11-kit-0.25.5-7.el10.x86_64 1730453558 2274541 0d10784fb866e91942e5969c5595bcf8 installed
+DEBUG util.py:461:  p11-kit-trust-0.25.5-7.el10.x86_64 1730453558 408940 a90c2a5f8a915a65b0fc0970e23366ee installed
+DEBUG util.py:461:  openssl-libs-1:3.5.0-8.el10.x86_64 1749137702 9350498 1d7bc4a7b7ce7fe7b4e6b02352c55fe2 installed
+DEBUG util.py:461:  coreutils-9.5-6.el10.x86_64 1732618075 5781370 5801daf855d9de1c9f5513ba77b3d425 installed
+DEBUG util.py:461:  ca-certificates-2024.2.69_v8.0.303-102.3.el10.noarch 1730215318 2701731 de08249ae5f7cf022e975101e0ccd147 installed
+DEBUG util.py:461:  authselect-libs-1.5.0-8.el10.x86_64 1730215145 820118 bcc3148237825fa3e17a24f10da0fb19 installed
+DEBUG util.py:461:  gzip-1.13-3.el10.x86_64 1730218103 402458 6973a672a654579d3b8b5325ae4f87de installed
+DEBUG util.py:461:  cracklib-2.9.11-8.el10.x86_64 1730215560 245125 0d10c73fe55b00e2d18bc180be1676fa installed
+DEBUG util.py:461:  libarchive-3.7.7-3.el10.x86_64 1749472027 957106 426ae5a171b59f432a86f8d76a06ea9e installed
+DEBUG util.py:461:  cracklib-dicts-2.9.11-8.el10.x86_64 1730215560 9815811 b8a3046d44a06c339d10aac3eff2a19e installed
+DEBUG util.py:461:  libpwquality-1.4.5-12.el10.x86_64 1730221689 427746 07adceb7817e9dfe21005a35c7838f08 installed
+DEBUG util.py:461:  pam-1.6.1-7.el10.x86_64 1732183507 1835213 7525b10fffe963943d0f182817b9ae69 installed
+DEBUG util.py:461:  libevent-2.1.12-16.el10.x86_64 1730220420 917042 bd352550fdb83a3f83d48def858b10a0 installed
+DEBUG util.py:461:  openldap-2.6.8-3.el10.x86_64 1739381092 525333 f1257afa5d7226c597c20a400a909b59 installed
+DEBUG util.py:461:  rpm-sequoia-1.6.0-6.el10.x86_64 1731508664 2444634 9e67d2f9e6e4b34aca8a537894baadd0 installed
+DEBUG util.py:461:  libgomp-14.2.1-8.el10.x86_64 1748428424 540182 12120c17209089d9e3439c95f554b4b8 installed
+DEBUG util.py:461:  libnghttp2-1.64.0-2.el10.x86_64 1730225043 174188 5eeac80e9dd6a1dcfd404a8a7f726465 installed
+DEBUG util.py:461:  libpkgconf-2.1.0-3.el10.x86_64 1730228319 80073 29a40a2c8547c3a919e88eeb7b65c0c4 installed
+DEBUG util.py:461:  pkgconf-2.1.0-3.el10.x86_64 1730228319 84394 9d7185cea1dbaf5c7fd90496405870fd installed
+DEBUG util.py:461:  pkgconf-pkg-config-2.1.0-3.el10.x86_64 1730228319 989 3c7cb7632d24c50637aba61cebafcae4 installed
+DEBUG util.py:461:  libverto-0.3.2-10.el10.x86_64 1730222483 30157 4d68fbc37bf8a651028e124253921fda installed
+DEBUG util.py:461:  libssh-0.11.1-1.el10.x86_64 1730102150 583267 76aec171b235b18fef05b534bc855454 installed
+DEBUG util.py:461:  libcurl-8.12.1-2.el10.x86_64 1744713242 858278 aae9071f6606439144d0d2341f351a9f installed
+DEBUG util.py:461:  elfutils-libs-0.193-1.el10.x86_64 1746041422 702893 800b6863b34c85196adb5bdf303dd499 installed
+DEBUG util.py:461:  elfutils-debuginfod-client-0.193-1.el10.x86_64 1746041422 81801 b8116dfdfe9c7efe5cc4f75f5990cd9f installed
+DEBUG util.py:461:  binutils-gold-2.41-56.el10.x86_64 1745936927 2166499 9855b1da19cc1e7f378480de94a37bbc installed
+DEBUG util.py:461:  binutils-2.41-56.el10.x86_64 1745936927 27858085 3c5a29dd260aa06af25a54e37de0a0b2 installed
+DEBUG util.py:461:  elfutils-0.193-1.el10.x86_64 1746041422 3086630 7fde3a8c40691c7d511cf1106c45d6ca installed
+DEBUG util.py:461:  gdb-minimal-14.2-4.1.el10.x86_64 1747926547 12887582 1af48833a194ddac5dc8923c235aeb63 installed
+DEBUG util.py:461:  debugedit-5.1-7.el10.x86_64 1744407175 205417 c3633032432ef23959203d74fd63d099 installed
+DEBUG util.py:461:  curl-8.12.1-2.el10.x86_64 1744713242 457272 7237349c3bea5464abc1d4ed9e645840 installed
+DEBUG util.py:461:  lua-srpm-macros-1-15.el10.noarch 1730223327 1367 1fbe1970bdc0d6edcd3fdc530b8be649 installed
+DEBUG util.py:461:  fonts-srpm-macros-1:2.0.5-18.el10.noarch 1730216344 57184 1c64f1de557330974aff611b600dae9a installed
+DEBUG util.py:461:  forge-srpm-macros-0.4.0-6.el10.noarch 1734556047 39882 fabea85a88c6ad82988771613c4c1125 installed
+DEBUG util.py:461:  go-srpm-macros-3.6.0-4.el10.noarch 1730218185 61912 73de5378f0c920b8cf8a4af1f5ee2730 installed
+DEBUG util.py:461:  python-srpm-macros-3.12-10.el10.noarch 1744804726 52539 db863cc8b9f7f04cc76daf66391d4c9f installed
+DEBUG util.py:461:  pyproject-srpm-macros-1.16.2-1.el10.noarch 1731588881 1952 d4ade3bbe7b9be654b4f26c2beb49edc installed
+DEBUG util.py:461:  util-linux-2.40.2-10.el10.x86_64 1739464864 3843378 1b89842bdb3fb274174723f2c7022b02 installed
+DEBUG util.py:461:  authselect-1.5.0-8.el10.x86_64 1730215145 160761 4900e595754d431a53a35a510aeecb7f installed
+DEBUG util.py:461:  which-2.21-43.el10.x86_64 1730234397 82140 8f3d1512dbac52ace0968c8b14b87d6c installed
+DEBUG util.py:461:  info-7.1-6.el10.x86_64 1733219153 370090 3b1b841257807d71c94941999708976a installed
+DEBUG util.py:461:  epel-rpm-macros-10-4.el10_1.noarch 1743539374 607 0598ead70ac7b3d56f843c834451699d installed
+DEBUG util.py:461:  rpm-libs-4.19.1.1-17.el10.x86_64 1749663568 734864 e7b82b257caf543771c906c6689cda0f installed
+DEBUG util.py:461:  rpm-4.19.1.1-17.el10.x86_64 1749663568 3096354 c271aca4a6202eacadc270d596ef61e5 installed
+DEBUG util.py:461:  rpm-build-libs-4.19.1.1-17.el10.x86_64 1749663568 198968 833ada495007399442ade71de51a6202 installed
+DEBUG util.py:461:  qt6-srpm-macros-6.9.1-1.el10.noarch 1747304296 464 15416c87c95aca8f600039ef129b5877 installed
+DEBUG util.py:461:  redhat-rpm-config-292-1.el10.noarch 1748898644 183956 8e4fb9294f63f5c50fdfd0ef1cd925b1 installed
+DEBUG util.py:461:  unzip-6.0-69.el10.x86_64 1744882430 407835 f957cb670c1796896a830e385dbc290e installed
+DEBUG util.py:461:  rpm-build-4.19.1.1-17.el10.x86_64 1749663568 176789 044f820d2817150b74169dc660234fc5 installed
+DEBUG util.py:461:  krb5-libs-1.21.3-8.el10.x86_64 1746462303 2429165 d128aff61e99968a0b6d22a1e9ffd926 installed
+DEBUG util.py:461:  xz-libs-1:5.6.2-4.el10_0.x86_64 1747270625 219435 608b2b9f10f7620cefdac9352fb63534 installed
+DEBUG util.py:461:  gdbm-libs-1:1.23-12.el10_0.x86_64 1747265717 124802 2316777b35d417be0789a01d1ee525be installed
+DEBUG util.py:461:  gdbm-1:1.23-12.el10_0.x86_64 1747265717 471407 b71416d44d94b2d2048116823e379b5a installed
+DEBUG util.py:461:  libxml2-2.12.5-5.el10_0.x86_64 1743163951 1791483 220522640bef19db63346eca18fc8034 installed
+DEBUG util.py:461:  xz-1:5.6.2-4.el10_0.x86_64 1747270625 1244808 8b8271fed592f1d935539b0ed707644a installed
+DEBUG util.py:461:  sqlite-libs-3.46.1-4.el10_0.x86_64 1747269110 1567520 0a63c34a8acd6205df03c33d33ad1a83 installed
+DEBUG util.py:461:  libsemanage-3.8.1-1.el10_0.x86_64 1743163771 319451 d8319552648338dc3f555b79d18c7273 installed
+DEBUG util.py:461:  efi-srpm-macros-6-6.el10.alma.1.noarch 1734440590 41092 3931350959da64ff1bdcee011ec80a8a installed
+DEBUG util.py:461:  libmpc-1.3.1-7.el10.x86_64 1730221091 164516 c2758337a2075dd3f6270fde665f31ef installed
+DEBUG util.py:461:  cpp-14.2.1-8.el10.x86_64 1748428424 40396104 455e9129248a93f0a820cb1b35b64bf9 installed
+DEBUG util.py:461:  ncurses-c++-libs-6.4-14.20240127.el10.x86_64 1730224743 165546 3b9698641f1ce1c6f8b00f936b4382fc installed
+DEBUG util.py:461:  kernel-headers-6.12.0-92.el10.x86_64 1749042323 6831236 8a4fa36d0555ae98b9251c4ab80b40c1 installed
+DEBUG util.py:461:  libxcrypt-devel-4.4.36-10.el10.x86_64 1730222731 30995 7a920a9940272b25b465231e89e54690 installed
+DEBUG util.py:461:  glibc-devel-2.39-38.el10.x86_64 1746515242 2330087 b7e67af4b063d67dbc7cb0ce60f4f7e2 installed
+DEBUG util.py:461:  annobin-docs-12.93-2.el10.noarch 1746530843 101230 4d13ec2af5ce64b766dfeb67457eef8d installed
+DEBUG util.py:461:  make-1:4.4.1-9.el10.x86_64 1731009937 1880255 6b4ced19a6818dbe9cc17bb080560e2d installed
+DEBUG util.py:461:  gcc-14.2.1-8.el10.x86_64 1748428424 114718173 8f003ea533d05fff11bc9589ff741516 installed
+DEBUG util.py:461:  annobin-plugin-gcc-12.93-2.el10.x86_64 1746530828 1019747 5bed69fde5b91609ab2f13f035f00721 installed
+DEBUG util.py:461:  gcc-plugin-annobin-14.2.1-8.el10.x86_64 1748428424 57970 54f3a5837abb66e33d5ba437a81d465f installed
+DEBUG util.py:461:  ncurses-devel-6.4-14.20240127.el10.x86_64 1730224743 880377 4f5d82b5b3ede71017e1f765e2b3c2cb installed
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/lib/mock/centos-stream+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG backend.py:816:  Copying packages to result dir
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-stream+epel-10-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:183:  kill orphans in chroot /var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
+DEBUG util.py:634:  child environment: None
+DEBUG util.py:556:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/centos-stream+epel-10-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:608:  Child return code was: 0
