@@ -4,6 +4,8 @@ nmon-epel10-rpm
 This repository contains RPM packaging files and build logs for "nmon"
 (version 16p), targeting EPEL 10 and AlmaLinux 10 systems.
 
+This packaging is based on the Fedora 43 version of the `nmon` package.
+
 Package Overview
 ----------------
 - Name       : nmon
@@ -11,10 +13,11 @@ Package Overview
 - Release    : 5.el10
 - Architecture: x86_64
 - Upstream   : https://nmon.sourceforge.net/pmwiki.php
+- Fedora Source: https://src.fedoraproject.org/rpms/nmon
 
 Included Files
 --------------
-- nmon.spec                  : RPM spec file
+- nmon.spec                  : RPM spec file (adapted from Fedora 43)
 - lmon16p.c                  : Upstream source
 - nmon.1                     : Manual page
 - nmon-16p-5.el10.src.rpm    : Source RPM
@@ -60,4 +63,3 @@ FAS username: redadmin
 GitHub: https://github.com/redadmin-k
 
 For issues or suggestions, please open an issue or pull request.
-
